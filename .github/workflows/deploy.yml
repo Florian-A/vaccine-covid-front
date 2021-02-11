@@ -26,3 +26,6 @@ jobs:
             cd $CLONE_DIR
             npm install
             npm run build
+            ls . | grep -v "dist" | xargs rm -r
+            cp ./dist/* -R .
+            rm -R ./dist/
