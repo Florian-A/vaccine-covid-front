@@ -11,7 +11,7 @@ jobs:
       - name: Executing remote ssh commands using password
         uses: appleboy/ssh-action@master
         env:
-          CLONE_DIR: /home/john/front-grp4
+          CLONE_DIR: /home/${{ secrets.SSH_USERNAME }}/front-grp4
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.SSH_USERNAME }}
