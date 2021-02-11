@@ -10,8 +10,6 @@
 
 <script>
 import axios from 'axios';
-
-
 export default {
 
   data () {
@@ -21,13 +19,8 @@ export default {
   },
   mounted () {
     axios
-    .get('https://api.coindesk.com/v1/bpi/currentprice.json')
-    //  .get('http://vaccine-comparator.xyz:8080/')
-      .then(response => (this.info = response))
-  },
-  name: 'HelloWorld',
-  props: {
-    msg: String
+    .get('http://api.vaccine-comparator.xyz/')
+    .then(response => (this.info = response.data))
   }
 }
 </script>
