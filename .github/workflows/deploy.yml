@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - dev
+      - feature/add-deploy-workflow
 jobs:
   deploy:
     runs-on: ubuntu-latest
