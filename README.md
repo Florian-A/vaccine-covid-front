@@ -1,24 +1,25 @@
-# vaccine-covid
+# Prémbule :
 
-## Project setup
+Cette partie aborde uniquement le front-end du projet vaccine-comparator.
+
+# Utilisation (phase de développement) 
+
+#### Les commandes suivantes doivent être utilisées durant le développement dans les cas de figures suivants :
+
+
+##### Installation des dépendences :
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+##### Rechargement automatique après chaques modifications du code :
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+##### Compilation pour mise en production :
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
